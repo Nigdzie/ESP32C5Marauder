@@ -1,0 +1,16 @@
+# This file was generated using idf.py save-defconfig. It can be edited manually.
+# Espressif IoT Development Framework (ESP-IDF) Project Minimal Configuration
+#
+CONFIG_IDF_TARGET="esp32c5"
+
+# Less logs
+# Logging level
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+# UART driver logs
+CONFIG_UART_ISR_IN_IRAM=n
+
+# Bootloader logging
+CONFIG_BOOTLOADER_LOG_LEVEL_WARN=y
+CONFIG_BOOTLOADER_LOG_LEVEL_INFO=
+CONFIG_LOG_DEFAULT_LEVEL_ERROR=y
+CONFIG_BOOTLOADER_LOG_COLORS=y
